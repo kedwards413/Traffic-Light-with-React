@@ -12,16 +12,21 @@
     import 'relative/path/to/stylesheet.scss';
 
 */
+
 .trafficLight{
     background: black;
     height: 400px;
     width: 200px;
-    
+    padding-left: 2em;
+    border-radius: 30px 30px 30px 30px;
+    box-shadow: 10px 10px 5px darkslategrey;
 }
 
 .trafficLight div{
     height: 130px;
     width: 140px;
+    padding-left: 4em;
+    padding-top: 5em;
 }
 
 .greenOff{
@@ -60,4 +65,6 @@
     
 }
 
-
+body{
+    background-image: url("https://media.timeout.com/images/105243662/image.jpg");
+}
